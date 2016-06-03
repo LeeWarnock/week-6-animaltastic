@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'TNG_Credits';
+	src: url('../fonts/TNG_Credits.woff') format('woff');
+}
+@font-face {
+	font-family: 'TNG_Title';
+	src: url('../fonts/TNG_Title.woff') format('woff');
+}
+/*
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'TNG_Credits', Arial, Helvetica, san-serif;
+}
+
+h1 {
+	font-family: 'TNG_Title', Arial, Helvetica, san-serif;
+	font-size: 400%;
+	text-align: center;
+	color: white;
+	position: center;
+}
+h2 {
+	font-family: 'TNG_Credits', Arial, Helvetica, san-serif;
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	position: center;
+}
+*/
+
+
+
+<!--//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////-->
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'TNG_Title', Arial, Helvetica, san-serif;
+	font-size: 400%;
+	text-align: center;
+	color: white;
+	position: center;
+}
+h2 {
+	font-family: 'TNG_Credits', Arial, Helvetica, san-serif;
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	position: center;
+}
+
+.health {
+	font-family: 'Courier';
+	color: white;
+	font-size: 16px;
+	background: black;
+	border-radius: 10px;
+}
+
+.btn-danger .btn-info {
+	margin: 5px;
+}
+
+
+.defeated img {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.allChars img {
+	max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#attack-btn {
+	vertical-align: bottom;
+}
+
+#logo {
+	margin-top: 60px;
+	padding: 5px;
+	height: auto;
+	width: 100%;
+	postion: absolute;
+}
+
+#instructions {
+	padding: 5px;
+	margin-left: 15px;
+	height: auto;
+	width: 90%;
+}
+
+
+/*
+#outcome {
+	content:url('../images/outcome_placeholder.jpg');
+	padding: 5px;
+	margin-left: 50px;
+	width: 300px; 
+}*/

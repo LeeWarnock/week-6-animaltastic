@@ -1,0 +1,232 @@
+/* main.css */
+
+body {
+	font-family: 'Gloria Hallelujah', arial;	
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/back.jpg")
+}
+
+#container {
+	padding:10px;
+	background-color: #F8F5E6;
+	width:600px;
+	height:600px;
+	margin:0 auto 0 auto;
+}
+
+/* HEADER STYLES */
+
+#title {
+	color:#DA5E62;
+}
+
+#header {
+	border-bottom: 1px solid #DA5E62;
+	margin-top: -20px;
+}
+
+#title {
+	padding:0;
+	margin:10px 0;
+	margin-left: 20px;
+
+
+}
+
+/* WORD IDENTIFICATION STYLES */
+
+.form-group {
+	width:230px;	
+	margin:0;
+	float:left;
+	display:none;
+}
+#form {
+	width:230px;
+	margin:10px 0 0 20px;
+}
+
+.item label {
+	float:left;
+}
+
+.form-group input {
+	height:30px;
+	width:200px;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 14px;
+	color:#B66567;
+	padding:5px;
+	float:left;
+}
+
+.item {
+	clear:both;
+	margin:10px 0;
+}
+
+#button {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+	color:#F8F5E6;
+	text-align: center;
+	width:100px;
+	margin: 10px 0 0 0;
+	cursor: hand;
+}
+
+/* SEARCH STYLES */
+
+#search{
+	float:left;
+	margin: -20px 0 0 10px;
+	width:570px;
+	/*border: 1px solid #000; */
+	height:100%;
+}
+
+#search h3 {
+	text-align: left;
+	font-size: 20px;
+	color: #DA5E62;
+	padding-bottom: 0;
+	margin-bottom: 10px;
+
+}
+
+.get_search{
+	width:350px;
+	height:40px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.searched {
+	height:30px;
+	width:200px;
+	float:left;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: left;
+	font-size: 14px;
+	color:#B66567;
+	padding:5px;
+}
+
+.submit {
+	font-family: 'Gloria Hallelujah', cursive;
+	float:left;
+	font-size: 14px;
+	color:#F8F5E6;
+	text-align: center;
+	width:70px;
+	margin: -6px 0 0 10px;
+	cursor: hand;
+}
+
+/* SEARCH RESULTS STYLES */
+
+#searchDisplay{
+	position: relative; 
+	float:left;
+	clear:both;
+	margin: 5px 10px 5px 10px;
+	width:540px;
+	border-bottom: 1px solid #000
+}
+
+#headline {
+	display:inline;
+	width:90px;
+	float:left;
+	margin: 0;
+
+}
+
+#searchDisplay dd {
+	margin-left: 0;
+	font-size: 14px;
+}
+
+#show_paragraph{
+	display: block;
+	width:520px;
+}
+
+.headline {
+	clear:both;
+	display: block;
+	width:520px;
+}
+
+.results {
+	width: 540px;
+	height: 400px;
+	overflow: scroll;
+	border:1px solid #000;
+	background-color: #FFE8C8;
+}
+.results:first-child {
+	display:none;
+}
+
+.info p {
+	margin:0;
+}
+
+/* STORY STYLES */
+
+#story {
+	position:relative;
+	display:none;
+	top: 20px;
+	left: 0;
+	height: 350px;
+	width: 535px;
+	padding-right: 50px;
+	padding-left: 10px; 
+	margin-bottom: 100px;
+	overflow-y: scroll;
+	border:1px solid #666;
+}
+
+#story span {
+	text-decoration: underline;
+}
+
+#story h3{
+	margin:0;
+	padding:0;
+}
+
+#story p {
+	font-size: 16px;
+}
+
+#man_reading {
+	width:150px;
+	float:right;
+}
+
+#reaper {
+	float:left;
+	width:150px;
+	margin:10px 10px 10px 0;
+}
+
+#play_again {
+	font-family: comic;
+	font-size: 20px;
+	color:#F8F5E6;
+	text-align: center;
+	width:200px;
+	margin: 10px 0 10px 0;
+	cursor: hand;
+}
+
+.hidden {
+	display:none; 
+}
+
+
+
